@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    {% if user.is_authenticated %}
+    <p>welcome {{ user.username }}</p>
+    <p><a href="/logout">Logout</a></p>
+    {% else %}
+    <p><a href="/login">Login</a></p>
+    <p><a href="/register">Signup</a></p>
+    {% endif %}
+</body>
+
+</html>
