@@ -1,3 +1,3 @@
 # User Authentication in Django
 
-User login, logout and signup using Django
+User login, logout and signup in Django
